@@ -1,0 +1,5 @@
+python-pptx>=1.0
+# punteggio CVSS v4 delle advisory OSV.dev (senza, si usa l'etichetta di gravita' dell'advisory)
+cvss>=3.2
+# per aprire i pacchetti .deb compressi con zstd (Ubuntu); da Python 3.14 non serve piu'
+zstandard>=0.22; python_version < "3.14"
